@@ -6,4 +6,5 @@ tempo = int(input("Em quantos meses ou anos vai pagar? "))
 juros = taxaJuros / 100 
 vF = presentValue * ((1 + juros)**tempo)
 
+#Prints future value output 
 print(f"O valor final a ser pago será de: R${vF:.2f}")
