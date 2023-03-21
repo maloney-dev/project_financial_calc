@@ -3,4 +3,5 @@ print("Quer descobrir quanto terá de pagar?")
 presentValue = int(input("Qual é o valor atual? R$"))
 taxaJuros = int(input("Qual é a taxa de juros? "))
 tempo = int(input("Em quantos meses vai pagar? "))
-vF = presentValue * ((1 + taxaJuros)**tempo)
+juros = taxaJuros / 100 
+vF = presentValue * ((1 + juros)**tempo)
